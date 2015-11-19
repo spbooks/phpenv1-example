@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "catfan/medoo": "^1.0"
+    "catfan/medoo": "^1.0",
+    "particle/validator": "^2.0"
   },
   "require-dev": {
     "symfony/var-dumper": "^2.7"

@@ -1,0 +1,56 @@
+body {
+    padding: 10px;
+}
+
+form {
+    width: 500px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    padding: 10px 10px 10px 4px;
+}
+
+form > input {
+    width: 100%;
+    margin-left:4px;
+    height: 35px;
+    border: 1px solid silver;
+    background: #cccccc;
+}
+
+form > input:hover {
+    background: whitesmoke;
+}
+
+label {
+    display: block;
+    margin: 5px;
+    color: grey;
+}
+
+label > input {
+    line-height: 30px;
+}
+
+label > * {
+    display: block;
+    width: 100%;
+}
+
+.comment {
+    width: 500px;
+    border: 1px solid silver;
+    border-radius: 3px;
+    margin: 10px 0;
+    background-color: lemonchiffon;
+}
+
+.comment > h3 {
+    margin: 0;
+    border-bottom: 1px solid silver;
+    background-color: lightblue;
+    padding: 3px;
+}
+
+.comment > p {
+    margin: 10px;
+}
