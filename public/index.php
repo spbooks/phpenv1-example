@@ -29,7 +29,7 @@ require_once '../vendor/autoload.php';
 
 $database = new medoo([
     'database_type' => 'sqlite',
-    'database_file' => '../database.db'
+    'database_file' => is_writable('../database.local.db') ? '../database.local.db' : 'database.db'
 ]);
 
 $comment = new SitePoint\Comment($database);
