@@ -1,18 +1,23 @@
 {
-    "name": "sitepoint/guestbook",
-    "description": "A guestbook app",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Your Name Here",
-            "email": "your@email.here"
-        }
-    ],
-    "require": {
-        "catfan/medoo": "^1.0"
-    },
-    "require-dev": {
-        "symfony/var-dumper": "^2.7"
+  "name": "sitepoint/guestbook",
+  "description": "A guestbook app",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name Here",
+      "email": "your@email.here"
     }
+  ],
+  "require": {
+    "catfan/medoo": "^1.0"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "SitePoint\\": "src"
+    }
+  }
 }

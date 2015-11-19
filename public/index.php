@@ -32,6 +32,13 @@ $database = new medoo([
     'database_file' => '../database.db'
 ]);
 
+$comment = new SitePoint\Comment($database);
+
+$comment->setEmail('bruno@skvorc.me');
+$comment->setName('Bruno Skvorc');
+$comment->setComment('Hey look, it works!');
+$comment->save();
+
 ?>
 <form method="post">
     <label>Name: <input type="text" name="name" placeholder="Your name"></label>
